@@ -74,9 +74,9 @@ class RowColum extends StatelessWidget {
               Container(
                 height: 158.2,
                 width: 234,
-                decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 53, 13, 13),
-                    border: Border.all(color: Colors.yellow)),
+                // decoration: BoxDecoration(
+                //     color: Color.fromARGB(255, 53, 13, 13),
+                //     border: Border.all(color: Colors.yellow)),
               ),
             ],
           ),

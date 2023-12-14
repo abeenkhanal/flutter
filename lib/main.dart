@@ -1,4 +1,5 @@
-import 'package:first_app/row_column.dart';
+// import 'package:first_app/row_column.dart';
+import 'package:first_app/button_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
             ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 47, 38, 99)),
         useMaterial3: true,
       ),
-      home: const RowColum(),
+      home:  ButtonsWidget(),
     );
   }
 }
